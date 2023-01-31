@@ -39,7 +39,8 @@
         echo "Your favorite color is neither red, blue, nor green!";
     }
     ?>
-
+    
+    <h1>@@</h1>
 </body>
 
 </html>
