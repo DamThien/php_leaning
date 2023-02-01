@@ -13,7 +13,6 @@
     echo "hello";
     $dai=30;
     $rong = 50;
-    echo $dt;
     $cv=($dai+$rong)*2;
     echo "<h1 style='bold:30px; color:#187'>$cv</h1>";
     
@@ -41,6 +40,21 @@
     ?>
     
     <h1>@@</h1>
+
+    
+    <form action="welcome.php" method="post">
+        <table>
+            <thead>
+                <h2>Tính diện tích chữ nhật</h2>
+            </thead>
+            <tbody>
+            <td> Name: <input type="text" name="name"><br></td>
+            <td>E-mail: <input type="text" name="email"><br></td>
+            </tbody>
+        </table>
+    <input type="submit">
+    </form>
+      
 </body>
 
 </html>
