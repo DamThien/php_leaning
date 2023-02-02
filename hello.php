@@ -48,8 +48,8 @@
                 <h2>Tính diện tích chữ nhật</h2>
             </thead>
             <tbody>
-            <td> Name: <input type="text" name="name"><br></td>
-            <td>E-mail: <input type="text" name="email"><br></td>
+            <td><tr>Name:</tr> <tr><input type="text" name="name"></tr></td>
+            <td><tr>E-mail: </tr><tr><input type="text" name="email"></tr></td>
             </tbody>
         </table>
     <input type="submit">
