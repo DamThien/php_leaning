@@ -37,24 +37,7 @@
     default:
         echo "Your favorite color is neither red, blue, nor green!";
     }
-    ?>
-    
-    <h1>@@</h1>
-
-    
-    <form action="welcome.php" method="post">
-        <table>
-            <thead>
-                <h2>Tính diện tích chữ nhật</h2>
-            </thead>
-            <tbody>
-            <td><tr>Name:</tr> <tr><input type="text" name="name"></tr></td>
-            <td><tr>E-mail: </tr><tr><input type="text" name="email"></tr></td>
-            </tbody>
-        </table>
-    <input type="submit">
-    </form>
-      
+    ?>     
 </body>
 
 </html>
