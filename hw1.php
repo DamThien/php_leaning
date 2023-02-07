@@ -2,13 +2,9 @@
 <html>
 <body>
     <?php
-    
-    if (!empty($_POST['dai']) && !empty($_POST['rong'])){
         $dai = $_POST["dai"];
         $rong = $_POST["rong"];
-        }
-    $dt= $dai * $rong;
-   
+        $dt= $dai * $rong;
    ?>
    <form id="form" name="form" method="post" action="hw1.php">
         <table width="400"  border="0" align="center" cellpadding ="2" cellspacing="2">
@@ -32,7 +28,6 @@
                 <td><input name="dt" type="text" id="dt" value="<?php echo $dt;?>" size="20">
             </tr>
             <tr>    
-                
             </tr>
         </table>
         <input type="submit" name="Submit" value="Tính">
