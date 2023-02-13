@@ -6,6 +6,39 @@
         $width = $_POST["width"];
         $height = $_POST["height"];
         $area= $width * $height;  
+        // if ($area > 200) {
+        //     $messenger = "Nên xây villa";
+        // }elseif ($area > 150){
+        //     $messenger = "Nên xây biệt thự";
+        // }elseif ($area > 50){
+        //     $messenger = "Nên xây nhà cấp 4";
+        // }elseif ($area == 0){
+        //     $messenger = "Không có đất xay nhà";
+        // }else{
+        //     $messenger = "Nên xây nhà cấp 3";
+        // }
+        switch ($area) {
+            case $area > 200:
+                $messenger = "Nên xây villa";
+                break;
+            case $area > 150:
+                $messenger = "Nên xây biệt thự";
+                break;
+            case $area > 50:
+                $messenger = "Nên xây nhà cấp 4";
+                break;
+            case $area > 0:
+                $messenger = "Không có đất xay nhà";
+                break;       
+        }
+    for ($a=0;$a<=10;$a++){
+        echo "a</br>";
+    };
+    $x=0;
+    while ($x<10){
+        echo "a</br>";
+        $x++;
+    };
    ?>
    <form id="form" name="form" method="post" action="hw1.php">
         <table width="400"  border="0" align="center" cellpadding ="2" cellspacing="2">
@@ -25,14 +58,17 @@
                 </label></td>
             </tr>
             <tr>
-            <td><span class="style4">S</span></td>
+            <td><span class="style4">Diện tích</span></td>
                 <td><input name="area" type="text" id="area" value="<?php echo $area;?>" size="20">
             </tr>
-            <tr>    
+            <tr><td></td>
+            <td><input name="" type="text" id="Mes" value="<?php echo $messenger?>" size="20">  
             </tr>
+        <script>
+            document.getElementById("Mes").innerHTML=<?php $messenger?>;
+        </script>
         </table>
         <input type="submit" name="Submit" value="Tính">
    </form>
-
 </body>
 </html>
