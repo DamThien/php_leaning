@@ -15,9 +15,9 @@
         foreach ($ages as $key => $value) {
             echo "Hello ".$key." ". $value ." years old <br>";
         }
-        for ($i=0; $i <= count($ages); $i++) { 
-            echo $sph[$i]." ";
-        }
+        // for ($i=0; $i < count($sph); $i++) { 
+        //     echo $sph[$i]." ";
+        // }
         
         $std_manage = array(
             "Student"=>array(
@@ -61,9 +61,21 @@
             }
             echo "<br>";
         }
+        // if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $sph[count($sph)] = $_POST['proname'];
+        // }
+        for ($i=0; $i < count($sph); $i++) { 
+            echo $sph[$i]." ";
+        }
+    ?>
+    <form action="array.php" method="POST">
+        <input type="text" name="proname" id="proname">
+        <input type="submit" value="THÊM">
+    </form>
+    <?php
+    
         
     ?>
-
 </body>
 
 </html>

@@ -46,33 +46,33 @@
             ),
 
             'SẢN PHẨM MỚI NHẤT'=>array(
-                'sp01'=>array(
+                'spm01'=>array(
                     'img'=>'<img src="https://cdn.tgdd.vn/Products/Images/42/22701/dien-thoai-di-dong-Nokia-1280-dienmay.com-l.jpg"/>',
                     'name'=>'Nokia black future',
                     'Price'=>399090,
                 ),
-                'sp02'=>array(
+                'spm02'=>array(
                     'img'=>'<img src="https://p-vn.ipricegroup.com/uploaded_44f3cf4a8d6ec58c0da60512fcde7443.jpg"/>',
                     'name'=>'hawei nova 2i',
                     'Price'=>3990900,
                 ),
-                'sp03'=>array(
+                'spm03'=>array(
                     'img'=>'<img src="https://cdn.tgdd.vn/Products/Images/42/22701/dien-thoai-di-dong-Nokia-1280-dienmay.com-l.jpg"/>',
                     'name'=>'Nokia black future',
                     'Price'=>399090,
                 ),
-                'sp04'=>array(
+                'spm04'=>array(
                     'img'=>'<img src="https://cdn.tgdd.vn/Products/Images/42/22701/dien-thoai-di-dong-Nokia-1280-dienmay.com-l.jpg"/>',
                     'name'=>'Nokia black future',
                     'Price'=>399090,
                 ),
-                'sp05'=>array(
+                'spm05'=>array(
                     'img'=>'<img src="https://cdn.tgdd.vn/Products/Images/42/22701/dien-thoai-di-dong-Nokia-1280-dienmay.com-l.jpg"/>',
                     'name'=>'Nokia black future',
                     'Price'=>399090,
                 )
                 ,
-                'sp06'=>array(
+                'spm06'=>array(
                     'img'=>'<img src="https://cdn.tgdd.vn/Products/Images/42/22701/dien-thoai-di-dong-Nokia-1280-dienmay.com-l.jpg"/>',
                     'name'=>'Nokia black future',
                     'Price'=>399090,
