@@ -18,8 +18,8 @@
         echo '<div class="ket_qua">Xin chào '. $_COOKIE["khach_hang"].'<br>';
         echo '<a href="cookie.php"> Click để quay về trang đăng nhập </a>';
         echo '</div>';
-        echo '<img class="content-img1" src="https://img.meta.com.vn/Data/image/2020/12/07/ong-gia-noel-cuoi-may-con-tuan-loc-al.jpg">';
-        echo '<img class="content-img2" src="https://cdn.tgdd.vn/Files/2022/11/05/1484413/ong-gia-noel-cuoi-may-con-tuan-loc-ten-cua-chung-la-gi-202211050908100309.jpg">';
+        echo '<img class="content-img1" src="https://www.science.org/do/10.1126/science.abi5787/abs/main_puppies_1280p.jpg">';
+        echo '<img class="content-img2" src="https://www.science.org/do/10.1126/science.aba2340/abs/dogs_1280p_0.jpg">';
     ?>
 </body>
 
