@@ -11,6 +11,7 @@
 
 <body>
     <?php 
+    error_reporting(0);
         $list_product = array(
             "Men"=>array(
                 "1" => array(
@@ -58,8 +59,56 @@
             echo "alert('Cảm ơn bạn đã mua hàng!')";
         }
     ?>
-
+    <?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $name = $_POST['namep'];
+            $code = $_POST['codep'];
+            $price = $_POST['pricep']." đ";
+            $URL = $_POST['link'];
+        }
+        if ($_POST["chose"]== "F") {
+            $list_product["Men"][] = array(
+                "Name"=>$name,
+                "Code"=>$code,
+                "Price"=>$price,
+                "ImageURL"=>$URL
+            );
+        } elseif ($_POST["chose"]== "M") {
+            $list_product["Women"][] = array(
+                "Name"=>$name,
+                "Code"=>$code,
+                "Price"=>$price,
+                "ImageURL"=>$URL
+        );
+    }
+    ?>
     <div class="container">
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <select name="chose" id="">
+                        <option value="F">Nam</option>
+                        <option value="M">Nữ</option>
+                    </select>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Tên sản phẩm" name="namep"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Mã sản phẩm" name="codep"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Giá sản phẩm" name="pricep"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="URL hình ảnh" name="link"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Thêm"></td>
+                </tr>
+            </table>
+        </form>
+
         <div class="protable">
             <?php foreach ($list_product as $gender => $id) {?>
             <div>
@@ -71,7 +120,7 @@
                         <div><?php echo $value['Name']?></div>
                         <div><?php echo $value['Code']?></div>
                         <div><?php echo $value['Price']?></div>
-                        <div><input type="submit" value="Đăt mua" onclick="<?php buy();?>">
+                        <div><input type="submit" value="Đặt mua" onclick="<?php buy();?>">
                         </div>
                     </div>
                     <?php }?>

@@ -54,6 +54,7 @@
                     echo "<span style='color:red;'>Họ tên chỉ chấp nhận chữ và khoảng trắng.</span></br>";
                 } else {
                     echo $name."</br>";
+                    $name = $_POST["name"];
                 }
             }
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -63,6 +64,7 @@
                     $phonenumber = $_POST["phonenumber"];
                     if(preg_match('/^[0-9]{10}+$/', $phonenumber)) {
                         echo $phonenumber."</br>";
+                        $phonenumber = $_POST["phonenumber"];
                     } else {
                         echo "<span style='color:red;'>Số điện thoại nhập chưa đúng.</span></br>";
                     }
@@ -76,6 +78,7 @@
                     echo "<span style='color:red;'>Email nhập chưa đúng.</span></br>";
                 } else {
                     echo $email."</br>";
+                    $email = $_POST["email"];
                 }
             }
             if (empty($_POST["content"])) {
