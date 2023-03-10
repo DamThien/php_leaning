@@ -1,0 +1,242 @@
+[
+    {
+        "Time": "1/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Hà Nội",
+        "day": "22/03/2023",
+        "price": "1.328.000",
+        "post": "14 phút trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "2/24",
+        "from": "Hà Nội",
+        "to": "TP. Hồ Chí Minh",
+        "day": "12/04/2023",
+        "price": "1.526.000",
+        "post": "17 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "3/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Đà Nẵng",
+        "day": "23/05/2023",
+        "price": "1.016.000",
+        "post": "4 phút trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "4/24",
+        "from": "Hà Nội",
+        "to": "Đà Nẵng",
+        "day": "12/04/2023",
+        "price": "943.000",
+        "post": "23 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "5/24",
+        "from": "Đà Nẵng",
+        "to": "TP. Hồ Chí Minh",
+        "day": "31/03/2023",
+        "price": "965.000",
+        "post": "6 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "6/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Phú Quốc",
+        "day": "27/03/2023",
+        "price": "756.000",
+        "post": "16 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "7/24",
+        "from": "Đà Nẵng",
+        "to": "Hà Nội",
+        "day": "31/03/2023",
+        "price": "976.000",
+        "post": "13 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "8/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Nha Trang",
+        "day": "26/03/2023",
+        "price": "668.000",
+        "post": "17 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "9/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Huế",
+        "day": "19/04/2023",
+        "price": "943.000",
+        "post": "22 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "10/24",
+        "from": "Phú Quốc",
+        "to": "TP. Hồ Chí Minh",
+        "day": "25/03/2023",
+        "price": "756.000",
+        "post": "15 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "11/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Bangkok",
+        "day": "04/05/2023",
+        "price": "3.799.000",
+        "post": "8 giờ trước ",
+        "type": "Khứ hồi",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "12/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Đà Lạt",
+        "day": "20/03/2023",
+        "price": "701.000",
+        "post": "một giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "13/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Singapore",
+        "day": "16/03/2023",
+        "price": "2.626.000",
+        "post": "4 giờ trước ",
+        "type": "Khứ hồi",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "14/24",
+        "from": "Hà Nội",
+        "to": "Huế",
+        "day": "02/04/2023",
+        "price": "1.337.000",
+        "post": "22 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "15/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Hải Phòng",
+        "day": "30/03/2023",
+        "price": "1.629.550",
+        "post": "21 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "16/24",
+        "from": "Hà Nội",
+        "to": "Bangkok",
+        "day": "20/05/2023",
+        "price": "3.877.000",
+        "post": "21 giờ trước ",
+        "type": "Khứ hồi",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "17/24",
+        "from": "Nha Trang",
+        "to": "TP. Hồ Chí Minh",
+        "day": "24/03/2023",
+        "price": "756.000",
+        "post": "21 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "18/24",
+        "from": "Hà Nội",
+        "to": "Phú Quốc",
+        "day": "29/03/2023",
+        "price": "1.691.000",
+        "post": "17 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "19/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Vinh",
+        "day": "21/03/2023",
+        "price": "1.284.000",
+        "post": "22 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "20/24",
+        "from": "Huế",
+        "to": "TP. Hồ Chí Minh",
+        "day": "20/04/2023",
+        "price": "1.064.000",
+        "post": "19 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "21/24",
+        "from": "TP. Hồ Chí Minh",
+        "to": "Quy Nhơn",
+        "day": "05/04/2023",
+        "price": "822.000",
+        "post": "21 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "22/24",
+        "from": "Hà Nội",
+        "to": "Nha Trang",
+        "day": "21/03/2023",
+        "price": "1.251.000",
+        "post": "8 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "23/24",
+        "from": "Đà Lạt",
+        "to": "TP. Hồ Chí Minh",
+        "day": "24/03/2023",
+        "price": "668.000",
+        "post": "21 giờ trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    },
+    {
+        "Time": "24/24",
+        "from": "Hải Phòng",
+        "to": "TP. Hồ Chí Minh",
+        "day": "30/03/2023",
+        "price": "1.570.000",
+        "post": "56 phút trước ",
+        "type": "Một chiều",
+        "rank": "Phổ thông"
+    }
+]
