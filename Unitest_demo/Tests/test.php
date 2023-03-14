@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 
 class Test extends TestCase
 {
-    public function testSum()
+    public function TestArea()
     {
         $result = RectangleArea(7, 9);
         $this->assertEquals(63, $result);
