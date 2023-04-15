@@ -1,16 +1,18 @@
 <?php
-function RectangleArea($width, $height)
-{
-    return $width * $height;
-}
-// Test hàm tính tổng bằng PHPUnit
+include("process.php");
+
 use PHPUnit\Framework\TestCase;
 
 class Test extends TestCase
 {
-    public function testSum()
+    public function testArea()
     {
-        $result = RectangleArea(7, 9);
+        $result = rectangleArea(7, 9);
         $this->assertEquals(63, $result);
+    }
+    public function testArea2()
+    {
+        $result2 = rectangleArea(7, 9);
+        $this->assertEquals(62, $result2);
     }
 }
